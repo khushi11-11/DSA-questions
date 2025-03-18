@@ -1,0 +1,14 @@
+
+QUES. why does an unset reference variable of type string array returns null when accessed but returns 0 when the array object is of type int, in Java?
+
+ANS. This behavior is due to how Java initializes reference variables versus primitive data type (int) arrays.
+
+In Java, when you declare a reference variable (String - an object type), but don't explicitly initialize it, its default value is 'null'.
+but when you declare an array of primitive types (int[]), Java automatically initializes all its elements with their default values.
+default value for unset variables of an int type of object is 0.
+
+=> String[] is an array of references, and references default to null.
+=> int[] is an array of primitive values, and primitive int defaults to 0.
+
+* Primitives are stored in stack.
+* Objects are stored in heap memory.
