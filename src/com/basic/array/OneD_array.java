@@ -1,6 +1,6 @@
 package com.basic.array;
 
-public class Prg01_array {
+public class OneD_array {
     public static void main(String[] args) {
         int[] arr = new int[3];
         arr[0] = 23; // first element
@@ -14,6 +14,8 @@ public class Prg01_array {
 //        will return 'null' on output screen, null basically means it has no value
 //        here, fruits[3] is an unset reference variable.
 //        0 is a value but null does not have a value
+
+
     }
 }
 
