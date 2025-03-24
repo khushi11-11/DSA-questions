@@ -40,5 +40,9 @@ public class TwoD_Array {
             System.out.println(Arrays.toString(arr[row]));
         }
 //        System.out.println(Arrays.toString(arr));
+
+        for ( int[] i : arr) System.out.println(Arrays.toString(i));
+//        why 'i' ? bcoz i is the iterator that traverses every element (row) of the array.
+//        so whenever using enhanced-for loop, we print the elements and not the array
     }
 }
