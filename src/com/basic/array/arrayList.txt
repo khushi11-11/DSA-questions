@@ -1,0 +1,21 @@
+NEED OF ARRAYLIST ~
+
+- dynamic size, not fixed
+- works only with wrapper classes, and not with primitives
+- SYNTAX:
+    ArrayList<type> var_name = new ArrayList<>();
+- EXAMPLE:
+    ArrayList<Integer> arrlist = new ArrayList<>();
+- not memory efficient, due to dynamic memory resizing
+- supports add(), remove(), clear()
+
+HOW IS THE SIZE DYNAMIC~
+- size is fixed internally
+- EXAMPLE:
+    lets say we have an array list of size 'n', the initial capacity
+    when the list fills up by a certain amt, or till a certain index, a new array list is created
+    this arraylist is of size greater than the original one
+    the elements, that were added earlier in the original list will get added in sequence to the new list
+    and the original or the old one will get destroyed
+    * the cycle repeats on and on
+- time complexity = O(1)
