@@ -13,8 +13,6 @@ public class MaxInRange {
         for (int i = i1+1; i < i2; i++) {
             if ( max < a[i] ) {
                 max = a[i];
-            } else {
-                max = max;
             }
         }
         System.out.print("Maximum element in range (" + i1 + ", " + i2 + "): ");

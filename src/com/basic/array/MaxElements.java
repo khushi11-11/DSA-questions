@@ -14,8 +14,6 @@ public class MaxElements {
         for (int i = 1; i < array.length; i++) {
             if ( max < array[i] ) {
                 max = array[i];
-            } else {
-                max = max;
             }
         }
         return max;
