@@ -1,6 +1,6 @@
 package com.basic.array;
 
-public class demo {
+public class Demo {
     public static void main(String[] args) {
 //        Scanner
     }
