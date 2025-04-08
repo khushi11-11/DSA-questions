@@ -41,4 +41,16 @@ public class Prg06_KidsWithMaxCandies {
         }
         System.out.println(Arrays.toString(res));
     }
+
+//    static List<Boolean> alternate(int[] candies, int extraCandiess) {
+//        int max = candies[0];
+//        for (int x : candies) {
+//            max = Math.max(max,x); // checks/compares for every element x in candies
+//        }
+//        ArrayList<Boolean> res = new ArrayList<>();
+//        for (int x : candies) {
+//            res.add( (x+extraCandiess)>=max);
+//        }
+//        return res;
+//    }
 }
