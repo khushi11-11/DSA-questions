@@ -15,7 +15,9 @@ Explanation: If you give all extraCandies to:
 
  */
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Prg06_KidsWithMaxCandies {
     public static void main(String[] args) {
@@ -23,6 +25,7 @@ public class Prg06_KidsWithMaxCandies {
         int extraCandies = 3;
         System.out.println(Arrays.toString(candies));
         result(candies, extraCandies);
+        alternate(candies, extraCandies);
     }
 
     static void result(int[] arr, int extras) {
