@@ -21,10 +21,10 @@ public class Prg04_RichestCustomerWealth {
         for ( int[] i : accounts)
             System.out.println(Arrays.toString(i));
 
-        MaximumWealth(accounts);
+        maximumWealth(accounts);
     }
 
-    static void MaximumWealth(int[][] nums) {
+    static void maximumWealth(int[][] nums) {
         int[] sum = new int[nums.length];
 //        array generated with elements as sum of all the a/c (elements) of array passes (nums)
         for (int ac = 0; ac < nums.length; ac++) {

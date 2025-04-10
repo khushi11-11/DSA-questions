@@ -17,10 +17,10 @@ public class Prg05_ArrayShuffle {
     public static void main(String[] args) {
         int[] arr = { 2, 5, 1, 3, 4, 7 };
         System.out.println(Arrays.toString(arr));
-        Shuffle(arr);
+        shuffle(arr);
     }
 
-    static void Shuffle(int[] nums) {
+    static void shuffle(int[] nums) {
         int mid = (nums.length/2); // 6/2 = 3
         int[] res = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {

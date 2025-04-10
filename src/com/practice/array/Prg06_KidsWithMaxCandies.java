@@ -25,7 +25,7 @@ public class Prg06_KidsWithMaxCandies {
         int extraCandies = 3;
         System.out.println(Arrays.toString(candies));
         result(candies, extraCandies);
-        alternate(candies, extraCandies);
+//        alternate(candies, extraCandies);
     }
 
     static void result(int[] arr, int extras) {
@@ -56,4 +56,5 @@ public class Prg06_KidsWithMaxCandies {
 //        }
 //        return res;
 //    }
+
 }
