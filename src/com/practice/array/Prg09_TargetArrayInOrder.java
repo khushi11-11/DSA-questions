@@ -41,6 +41,18 @@ public class Prg09_TargetArrayInOrder {
             } else {
                 // target[0,1,2,3,4] != null
                 int prev = nums[i];
+
+                // we can have 2 references - current, previous
+                // curr -> last-1 (bcoz there's always a place empty at the end when one element is still remaining to be put in the array) index (w/ decr) and prev -> previous to curr
+                // put curr =to=> temp, prev=to=> curr, temp=to=> curr+1
+
+                // curr (req index) ko daalo temp me
+                // curr ko fill kro with nums[i]
+                    // now comes a loop
+                    // temp me stored h curr ki val
+                    // next will point to index+1 of target
+                    // 
+
             }
         }
         System.out.println(Arrays.toString(target));
