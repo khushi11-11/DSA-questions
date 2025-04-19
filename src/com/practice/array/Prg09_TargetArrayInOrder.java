@@ -51,7 +51,7 @@ public class Prg09_TargetArrayInOrder {
                     // now comes a loop
                     // temp me stored h curr ki val
                     // next will point to index+1 of target
-                    // 
+                    //
 
             }
         }
