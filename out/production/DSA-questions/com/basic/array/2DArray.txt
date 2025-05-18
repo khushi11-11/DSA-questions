@@ -1,0 +1,18 @@
+2-D ARRAY~
+
+- have more than one dimension.
+- syntax is very simple : data_type[row][column] array = new data_type[5][];
+- row size, to be mentioned, is mandatory in java. Column size is not required.
+- example : int[][] arr = {
+                            { 1, 2, 3},
+                            { 4, 5, 6},
+                            { 7, 8, 9}
+            };
+
+- every element of 'arr', here, is an array itself. Array of arrays !!
+
+*DYNAMIC ARRAY*
+- column is of variable length, i.e., every row can have a different size of elements
+- it can look like this also => { {1,2,3}, {4,5}, {6,7,8,9,10} }
+- aka jagged array
+- arr.length, in case of 2d arrays, will return the row length

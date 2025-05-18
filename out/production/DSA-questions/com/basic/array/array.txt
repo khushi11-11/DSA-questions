@@ -1,0 +1,15 @@
+ARRAY :-
+
+- data structure that stores n no. of elements
+- a collection of homogenous data
+- all elements have same data type
+- types : 1D, 2D
+
+- syntax : <data_type>[] <array_name> = new <data_type>[<size>];
+OR : <data_type>[] <array_name>;
+     <array_name> = new <data_type>[<size>];
+
+- alternate : <data_type>[] <array_name> = { elements... };
+
+- storing elements(manually) : <array_name>[<index>] = <value>;
+- how to access : loops

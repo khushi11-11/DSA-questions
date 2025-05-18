@@ -1,0 +1,33 @@
+UNDERSTANDING THE SYNTAX OF ARRAY~
+
+*
+declaration Syntax:-
+<data_type>[] <array_name>;
+*
+
+Example:-
+int[] arr1;
+
+Explanation:-
+This step will initialize the variable, and it will get initialized in the stack during compile time.
+reference variable (arr1) initialized in the 'stack'.
+happens during 'compile time'
+-------------------------------------------------------------------------------------------------------------------------
+*
+initialization Syntax:-
+<array_name> = new <data_type>[<size>];
+*
+
+Example:-
+arr1 = new int[5];
+
+Explanation:-
+A new object is created in the 'heap' memory.
+object is created with (a size of) 5 reference variables.
+unset vars will point to null.
+takes place during 'runtime' OR 'execution time' -> dynamic memory allocation, i.e., when memory is allocated at runtime.
+"new" keyword is used to create a 'new object'.
+-------------------------------------------------------------------------------------------------------------------------
+
+arr1 -> reference variable
+new int[5] -> object

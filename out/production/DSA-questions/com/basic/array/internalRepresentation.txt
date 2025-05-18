@@ -1,0 +1,14 @@
+INTERNAL REPRESENTATION OF ARRAY~
+
+- array has a contiguous memory allocation.
+- array objects (or any other object) is stored in heap memory.
+- in JLS (java lang. specification), it is mentioned that heap objects are not guaranteed to be continuous.
+- hence, internally array objects in Java may not be continuous.
+- depends on JVM, because Java does not specify a strict memory layout for objects in the heap.
+- memory allocation is not managed by the os, unlike c/c++.
+- Different JVMs use different strategies for memory management.
+- Heap Fragmentation: If the heap has scattered free blocks, objects may be allocated non-contiguously.
+- The Garbage Collector may move objects around to avoid fragmentation.
+- in fragmented heap conditions, the array may not be completely contiguous.
+- JVMs usually allocate arrays in a contiguous block (because array indexing relies on this for fast access).
+- memory allocation depends on the JVM’s implementation and optimization strategies
