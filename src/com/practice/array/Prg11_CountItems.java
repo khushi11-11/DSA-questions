@@ -20,7 +20,61 @@ Explanation: There is only one item matching the given rule, which is ["computer
 
  */
 
+import java.util.Objects;
+import java.util.Scanner;
 
 public class Prg11_CountItems {
+    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("How many items do you want in the list? ");
+//        int n = sc.nextInt();
+//        sc.nextLine(); //consume the leftover newline
+//        String[][] items = new String[n][3];
+//        for (int i = 0; i < n; i++) {
+//            System.out.print("Enter item type: "); // rule_key=type
+//            items[i][0] = sc.nextLine();
+//            System.out.print("Enter item color: "); // rule_key=color
+//            items[i][1] = sc.nextLine();
+//            System.out.print("Enter item brand: "); // rule_key=brand
+//            items[i][2] = sc.nextLine();
+//        }
+//        for (int i = 0; i < n; i++) {
+//            System.out.println("Item" + (i+1) + ": " +
+//                    "type= " + items[i][0] +
+//                    ", color= " + items[i][1] +
+//                    ", brand= " + items[i][2] );
+//        }
+//        System.out.print("Rule key= ");
+//        String ruleKey = sc.nextLine();
+//        System.out.print("Rule value= ");
+//        String ruleValue = sc.nextLine();
+////        check(items, ruleKey, ruleValue);
+////        rule-matching
+//
 
+        String[][] arr = {
+                {"Phone", "Black", "Pixel"},
+                {"Laptop", "Silver", "Dell"},
+                {"Phone", "Silver", "Samsung"}
+        };
+        check(arr, "color", "silver");
+    }
+
+    static void check(String[][] array, String key, String value) {
+        int m;
+        if ( key.toLowerCase() == "type" ) {
+            m = 0;
+        } else if ( key.toLowerCase() == "color" ) {
+            m = 1;
+        } else {
+            m = 2;
+        }
+        int  count = 0;
+        for (String[] strings : array) {
+            if (strings[m].equalsIgnoreCase(value)) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
 }
