@@ -1,0 +1,11 @@
+<string>.toCharArray()
+- string is converted to a char array
+- eg: str= "khushi";
+      str.toCharArray();
+  o/p: [k, h, u, s, h, i]
+
+Arrays.toString(<array>)
+- displays the array elements in a user readable format
+- eg: arr = {10, 20, 30, 40};
+      Arrays.toString(arr);
+  o/p: [10, 20, 30, 40]

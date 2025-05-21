@@ -1,0 +1,5 @@
+length that we use with arrays to return the length of the array is a variable
+WHEREAS, length() that we have used in SearchInStrings is a function or method defined in the String class
+
+Internally, in the method definition "public int length()" of type Array,
+there is length variable only working on the array
