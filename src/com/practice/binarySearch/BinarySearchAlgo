@@ -1,0 +1,17 @@
+BINARY SEARCH ALGORITHM~
+
+- for arrays that are sorted
+- sorted means => either ascending or descending
+- uses 2 pointers => start, end
+- and one more which is used to find the target value => mid
+- initially, start=0 & end=n-1
+- mid = start+end /2 (integer division)
+- e.g. start=0, end=9 for an array of 10 elements, mid = (0+9)/2 => 4
+- check if mid = target => if yes: target found, if not: check if mid<target OR mid>target
+- if mid < target (e.g. target=36, mid=11) : start = mid+1 [end remains same]
+- else if mid > target (e.g. target=10, mid=11) : end = mid-1 [here, start remains same]
+
+
+
+- when start > end : element does not exist {ascending}
+- when start < end : element does not exist {descending}

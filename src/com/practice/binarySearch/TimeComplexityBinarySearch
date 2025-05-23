@@ -1,0 +1,28 @@
+TIME COMPLEXITY~
+
+- Best case = O(1)
+- Worst case = O(log n)
+* how? find max no. of comparisons
+    > when array is not divided
+        array size = N
+        iteration = 0
+        => N/(2^0)
+    > further divided in two sub parts
+        => N/(2^1) = N/2
+        => N/(2^2) = N/4
+        ...
+        => N/(2^k)
+
+    > at the end only 1 element wil be left
+        array size = 1
+        1 = N/(2^k)
+        2^k = N
+    -- put log on both sides --
+        log(2^k) = log N
+        k log2 = logN
+        k = (logN)/(log2)
+        k =  log N of base2
+        k = log n
+
+=> k = total comparisons
+   N = array size
