@@ -13,6 +13,6 @@ BINARY SEARCH ALGORITHM~
 
 
 
-ORDER AGNOSTIC~
+ORDER AGNOSTIC (believing that order is unknown or can not be known)~
 - when start > end : element does not exist {ascending}
 - when start < end : element does not exist {descending}
