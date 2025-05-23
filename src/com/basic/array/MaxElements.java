@@ -11,6 +11,7 @@ public class MaxElements {
 
     static int maximum(int[] array) {
         int max = array[0];
+//        OR int max = Integer.MIN_VALUE; the min value an integer type variable can hold
         for (int i = 1; i < array.length; i++) {
             if ( max < array[i] ) {
                 max = array[i];

@@ -13,6 +13,7 @@ public class LinearSearchOnString {
     }
     static Boolean stringSearch( String s, char c ){
         if ( s.length() == 0) {
+//            's.length() == 0' can be replaced with 's.isEmpty()'
             return false;
         }
         for (int ch = 0; ch < s.length(); ch++) {
