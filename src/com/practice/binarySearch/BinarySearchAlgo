@@ -13,5 +13,6 @@ BINARY SEARCH ALGORITHM~
 
 
 
+ORDER AGNOSTIC~
 - when start > end : element does not exist {ascending}
 - when start < end : element does not exist {descending}
