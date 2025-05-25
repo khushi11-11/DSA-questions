@@ -1,0 +1,5 @@
+HOW TO CHECK THE ORDER OF A SORTED ARRAY?
+- compare first and last element of the array
+    > if first < last : ascending
+    > if first > last : descending
+    > if first = last : all index of array contain same element (value)
