@@ -43,5 +43,20 @@ public class Prg04_RichestCustomerWealth {
         }
         System.out.println("Richest customer account no.: " + index);
         System.out.println("Wealth: " + max);
+
+
+
+        /*
+        int max=0;
+        for (int ac = 0; ac < nums.length; ac++) {
+            int sum=0;
+            for (int i = 0; i < nums[ac].length; i++) {
+                sum += nums[ac][i];
+            }
+            if (max < sum) {
+                max = sum;
+            }
+        }
+         */
     }
 }
