@@ -1,0 +1,19 @@
+CEILING NUMBER~
+
+- smallest num >= target
+- e.g. array = {2,3,5,9,12,14,16,20}
+    target = 15
+    ceiling no.= 16 : greater than (or equal to) 15 => 16, 20
+                      smallest of them => 16
+
+    target = 14 : ceiling no. = 14
+
+
+- at some point or at the end, there will be condition where start and end is equal
+- the ans is either that mid which is basically = start = end
+- so if mid is not the ans then it must be the next element
+- the next iteration after start=end => results to start>end
+- start will be end+1 & end remains same
+- so the answer is start
+
+- same for descending ordered array where ans will be end
