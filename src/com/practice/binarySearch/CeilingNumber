@@ -9,7 +9,7 @@ CEILING NUMBER~
     target = 14 : ceiling no. = 14
 
 
-- at some point or at the end, there will be condition where start and end is equal
+- at some point (typically at the end), there will be condition where start and end is equal
 - the ans is either that mid which is basically = start = end
 - so if mid is not the ans then it must be the next element
 - the next iteration after start=end => results to start>end

@@ -20,11 +20,10 @@ public class Prg01_FindCeilingNumber {
     }
 
     static int ceiling(int[] arr, int num) {
-        int start = 0, end = arr.length-1;
+        int start = 0, end = arr.length-1, mid=0;
         
         if ( arr[0] < arr[arr.length-1] ) {
         // ascending order
-            int mid;
             while (start <= end ) {
                 mid = start + (end-start)/2;
                 if ( arr[mid] > num ) {
@@ -41,7 +40,6 @@ public class Prg01_FindCeilingNumber {
 
         } else {
         // descending order
-            int mid;
             while (start <= end ) {
                 mid = start + (end-start)/2;
                 if ( arr[mid] < num ) {
