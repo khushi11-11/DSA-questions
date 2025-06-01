@@ -50,7 +50,7 @@ public class OrderAgnostic {
     static boolean descSearch(int[] arr, int num) {
         int start = 0, end = arr.length-1;
         int mid;
-        while( start < end ) {
+        while( start <= end ) {
             mid = start + (end-start)/2;
             if ( arr[mid] <= num ) {
                 end = mid-1;
