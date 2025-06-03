@@ -50,7 +50,10 @@ public class Prg01_FindCeilingNumber {
                     return arr[mid];
                 }
             }
+//            while loop breaks (start>end) => results in: start = mid+1 || end+1
+
 //            when start > end so the element which is ceiling has to be the previous one => end
+//            why previous one? why end? because of the order
             return arr[end];
         }
 //        return -1;
