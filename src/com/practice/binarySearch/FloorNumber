@@ -1,0 +1,18 @@
+FLOOR NUMBER~
+
+- largest num <= target
+- e.g. array = {2,3,5,9,12,14,16,20}
+    target = 15
+    floor no.= 14 : smaller than (or equal to) 15 => 2,3,5,9,12,14
+                      largest of them => 14
+
+    target = 14 : floor no. = 14
+
+- for when the target element does not exist in the array?
+    > this means the while loop will have to break as there is no such element
+    > this results in start > end
+    > bcoz we need to find the number which is smaller than the target, we will return element at index end
+    > why end? this is bcoz if mid of the array (last itr-n) is not the ans it has to be the previous one
+    > why prev one? bcoz floor is smaller than target
+    > also out of all the numbers smaller than the target, floor is the largest one
+    > that means the number just previous to the mid is the floor
