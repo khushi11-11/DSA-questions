@@ -1,8 +1,8 @@
 BINARY SEARCH ALGORITHM~
-
+(2 ptr approach)
 - for arrays that are sorted
 - sorted means => either ascending or descending
-- uses 2 pointers => start, end
+- uses 2 pointers => start, end [converging ptrs]
 - and one more which is used to find the target value => mid
 - initially, start=0 & end=n-1
 - mid = start+end /2 (integer division)

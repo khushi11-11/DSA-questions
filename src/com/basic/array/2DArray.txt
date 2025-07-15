@@ -16,3 +16,12 @@
 - it can look like this also => { {1,2,3}, {4,5}, {6,7,8,9,10} }
 - aka jagged array
 - arr.length, in case of 2d arrays, will return the row length
+
+
+- int[][] matrix = new int[3][];
+This creates an array with 3 rows, but:
+Each matrix[0], matrix[1], matrix[2] is still null
+You must manually initialize each row (like a separate 1D array)
+This is allowed, but only useful when your rows are of different lengths (called a jagged array)
+So if you try to access matrix[0][0] before doing matrix[0] = new int[x];, you'll get:
+❌ Cannot store to int array because "matrix[i]" is null
